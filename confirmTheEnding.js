@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 // only use substring methods to find the last word in the string and compare it to the target. If equal in value return true, otherwise return false
-=======
+
 /* function confirmEnding(str, target) {
   
 var res = str.substring(str.length -1 , str.length );
@@ -15,7 +14,6 @@ console.log(res);
 
 confirmEnding("Bastian", "n");
 */
->>>>>>> c97a8cfa8024a574bf1391085fad09bdf3f6d38a
 
 /* There are 3 methods for extracting a part of a string:
  *slice(start, end) where to start slicing and where to end slicing. The end is optional. And you can use a negative to count characters backwards from the end.
