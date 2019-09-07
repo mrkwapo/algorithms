@@ -1,4 +1,4 @@
-/*function confirmEnding(str, target) {
+/* function confirmEnding(str, target) {
   
 var res = str.substring(str.length -1 , str.length );
 console.log(res);
