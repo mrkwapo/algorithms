@@ -1,3 +1,4 @@
+// this program tells you the difference of two dates by number of years and months
 #include <stdio.h>
 #include <cs50.h>
 #include <math.h>
