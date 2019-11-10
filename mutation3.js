@@ -1,3 +1,4 @@
+//mutations algorithm
 function mutation(arr) {
 var rawFirst= arr[0];
 var rawSecond= arr[1];
