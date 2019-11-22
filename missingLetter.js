@@ -2,7 +2,6 @@
 // Find the missing letter in the passed letter range and return it.
 // If all letters are present in the range, return undefined.
 
-
 function fearNotLetter(str) {
 
   var alphabetStr = 'abcdefghijklmnopqrstuvwxyz';
@@ -10,7 +9,7 @@ function fearNotLetter(str) {
 
   //handles strings that start with a
   for (var i = 0; i < alphabetStr.length; i++) {
-    if (str[i] !== alphabetStr[i] && alphabetStr[0] === 'a') {
+    if (str[i] !== alphabetStr[i]) {
       notIncluded.push(alphabetStr[i]);
     }
     //handle strings that don't start with a
