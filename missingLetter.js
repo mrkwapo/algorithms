@@ -8,11 +8,6 @@ function fearNotLetter(str) {
   var alphabetStr = 'abcdefghijklmnopqrstuvwxyz';
   var notIncluded = [];
 
-  //handles if no letters are missing
-  if (alphabetStr.includes(str)) {
-    console.log(undefined);
-    return undefined;
-  }
   //handles strings that start with a
   for (var i = 0; i < alphabetStr.length; i++) {
     if (str[i] !== alphabetStr[i] && alphabetStr[0] === 'a') {
@@ -28,6 +23,7 @@ function fearNotLetter(str) {
     }
   }
   return notIncluded[0]
+    ? notIncluded[0] : undefined
 }
 
 fearNotLetter("abce");
