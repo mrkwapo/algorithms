@@ -1,4 +1,4 @@
-//truncate a string algorithm
+//updated truncate a string algorithm
 function truncateString(str, num) {
   //console.log(Number.isInteger(num))
 
