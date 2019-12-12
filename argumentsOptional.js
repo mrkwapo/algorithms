@@ -20,11 +20,11 @@ function addTogether() {
   }
 
   for (var i = 0; i < arguments.length; i++) {
-    if (!Number.isInteger(arguments[i])) {
+    if (typeof arguments[i] != "number") {
       return undefined;
     }
 
-    if (Number.isInteger(arguments[i])) {
+    if (typeof arguments[i] == "number") {
       sum.push(arguments[i]);
     }
   }
@@ -34,4 +34,3 @@ function addTogether() {
 
 
 addTogether(2, 3);
-
